@@ -1,11 +1,11 @@
 #include <stdio.h>
-
 /**
- *Description: 'Printf the string to standard output'
  *
- *@parameter void
+ *main - printf string to terminal
  *
- *Return: Always 0 (Successful)
+ *Description: 'prints to standard output'
+ *
+ *Result: Always 0 (Successful)
  *
  */
 int main(void)

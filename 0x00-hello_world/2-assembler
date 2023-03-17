@@ -1,2 +1,2 @@
 #!/bin/bash
-as $CFILE $CFILE.s
+as $CFILE ${CFILE}.s
