@@ -1,15 +1,18 @@
 #include <stdio.h>
-/**
+
+/*
+ *main - 'printf string to terminal'
  *
- *main - printf string to terminal
+ *Description: 'prints the set of words to terminal'
  *
- *Description: 'prints to standard output'
+ *@parameter void
  *
- *Result: Always 0 (Successful)
+ *Return: Always 0(successful)
  *
  */
+
 int main(void)
 {
-	printf("with proper grammar, but the outcome is a piece of art,\n");
+	printf("with proper grammar, but the outcome is a piece of art,");
 	return (0);
 }
