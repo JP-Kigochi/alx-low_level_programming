@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>
 
 /**
  *main - returns 0 if code block is succesful
@@ -16,7 +17,7 @@ int main(void)
 	char str[] = "abcdefghiklmnopqrstuvwxyz";
 	int i;
 
-	for (i = 0; str[i] != '\0'; i++)
+	for (i = 0; i <= strlen(str); i++)
 	{
 		char c = str[i];
 
