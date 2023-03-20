@@ -14,10 +14,10 @@
 
 int main(void)
 {
-	char str[] = "abcdefghiklmnopqrstuvwxyz";
+	char str[] = "abcdefghijklmnopqrstuvwxyz";
 	unsigned int i;
 
-	for (i = 0; i <= strlen(str); i++)
+	for (i = 0; i < strlen(str); i++)
 	{
 		char c = str[i];
 
