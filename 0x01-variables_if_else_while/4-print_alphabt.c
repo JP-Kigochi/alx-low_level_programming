@@ -13,14 +13,18 @@
  */
 int main(void)
 {
-	char str[] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+	char str[] = "abcdefghijklmnopqrstuvwxyz";
 	unsigned int i;
 
 	for (i = 0; i < strlen(str); i++)
 	{
 		char c = str[i];
+		
+		if (c != 'e' || c != 'q')
+		{
+			putchar(c)
+		}
 
-		putchar(c);
 	}
 
 	putchar('\n');
