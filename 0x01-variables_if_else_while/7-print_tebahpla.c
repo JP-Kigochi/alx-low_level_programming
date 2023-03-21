@@ -15,8 +15,8 @@
 int main(void)
 {
 	char str[] = "abcdefghijklmnopqrstuvwxyz";
-	unsigned int i;
-	unsigned int end = strlen(str) - 1;
+	int i;
+	int end = strlen(str) - 1;
 
 	for (i = str[end]; i >= str[0]; i--)
 	{
