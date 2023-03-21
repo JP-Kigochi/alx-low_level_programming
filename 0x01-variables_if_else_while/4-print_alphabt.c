@@ -19,11 +19,13 @@ int main(void)
 	for (i = 0; i < strlen(str); i++)
 	{
 		char c = str[i];
-		
-		if (c != 'e' || c != 'q')
+
+		if (c == 'e' || c == 'q')
 		{
-			putchar(c);
+			continue;
 		}
+
+		putchar(c);
 
 	}
 
