@@ -11,8 +11,8 @@
 
 int _abs(int)
 {
-	if (int >= 0)
-		return (int);
+	if (*int >= 0)
+		return (*int);
 	else
-		return (0 - int);
+		return (0 - *int);
 }
