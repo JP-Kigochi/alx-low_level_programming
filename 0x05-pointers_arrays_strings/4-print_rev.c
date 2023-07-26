@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  *print_rev - prints string in rverse order
@@ -10,17 +11,22 @@ void print_rev(char *s)
 	int counter;
 
 	counter = 0;
-	while (*s != '\0')
+	if (*s == '\0')
+		_putchar('\n');
+	else
 	{
-		s++;
-		counter++;
-	}
-
-	while (counter >= 0)
-	{
-		_putchar(*s);
+		do {
+			s++;
+			counter++;
+		} while (*s != '\0');
 		s--;
-		counter--;
+
+		while (counter > 0)
+		{
+			_putchar(*s);
+			s--;
+			counter--;
+		}
+		_putchar('\n');
 	}
-	_putchar('\n');
 }
