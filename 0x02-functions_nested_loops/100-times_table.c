@@ -9,7 +9,7 @@ void compare_numbers(int a, int b);
  */
 void print_times_table(int n)
 {
-	if (n < 15 && n > 0)
+	if (n <= 15 && n >= 0)
 	{
 		int i, j;
 		int result, a, b, c;
