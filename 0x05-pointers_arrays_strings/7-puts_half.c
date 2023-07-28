@@ -28,7 +28,7 @@ void puts_half(char *str)
 
 /**
  *half_string - returns half of the string
- *@str - string to be parsed
+ *@str: string to be parsed
  *Return: half length of string
  */
 int half_string(char *str)
